@@ -1,2 +1,3 @@
-# tabix-docker
-Tabix (nginx based) docker image
+# Tabix image
+
+A ready-to-use Tabix docker image.
