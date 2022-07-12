@@ -15,4 +15,4 @@ RUN yarn build
 
 FROM nginx AS target
 
-COPY --from=build /tabix/dist/* /usr/share/nginx/html/
+COPY --from=build /tabix/dist/ /usr/share/nginx/html/
